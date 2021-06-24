@@ -1,12 +1,13 @@
-name: RDP-Windows
+name: rw
 
 on: workflow_dispatch
+
 
 jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 600
+    timeout-minutes: 601
 
     steps:
     - name: Download Ngrok & NSSM
